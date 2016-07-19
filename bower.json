@@ -1,0 +1,16 @@
+{
+  "name": "json-prettifier",
+  "description": "Prettify ugly JavaScript Object Notation (JSON)",
+  "main": "app.js",
+  "authors": [
+    "Roger Moore <me@rogermoore.io>"
+  ],
+  "license": "MIT",
+  "homepage": "http://rogermoore.io/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "tests"
+  ]
+}
