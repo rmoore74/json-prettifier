@@ -8,11 +8,12 @@ html
         link(rel='stylesheet', href='/components/skeleton/css/skeleton.css')
         link(rel='stylesheet', href='/components/skeleton/css/normalize.css')
         
-        link(rel='stylesheet', href='/stylesheets/style.css')
+        link(rel='stylesheet', href='/stylesheets/styles.css')
     body
         block content
+        
+        include ./footer.pug
 
         script(src='components/angular/angular.min.js')
-
         script(src='javascripts/prettifyApp.js')
         script(src='javascripts/MainCtrl.js')

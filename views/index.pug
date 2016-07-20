@@ -7,6 +7,9 @@ block content
                 h1 JSON Prettifier
                 p Barebones JSONLint clone. Just because it seems like a fun project really.
             div.row
+                div.alert-error(ng-show='alerts.showError') <strong>Whoops!</strong> JSON is not valid.
+                div.alert-success(ng-show='alerts.showValid') <strong>Hooray!</strong> JSON is valid.
+            div.row
                 div.twelve.columns
                     textarea#jsonInput.u-full-width(style='height: 450px')
             div.row
